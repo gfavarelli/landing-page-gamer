@@ -1,0 +1,106 @@
+
+body {
+    padding: 0%;
+    background: #191919 !important;
+    font-family: 'Skranji', cursive !important;
+    background-image: url("./img/bg-opacity.png") !important;
+}
+
+.conteudo-header {
+    height: 640px;
+}
+
+.navbar.navbar-expand-lg {
+    z-index: 4;
+    background-color: transparent;
+    position: relative;
+}
+
+.navbar.navbar-expand-lg .container-fluid .navbar-brand {
+    color: #fff;
+    margin: 0 auto;
+}
+
+main {
+    position: absolute;
+    top: 0%;
+    z-index: 0;
+}
+
+.card:hover {
+    box-shadow: 0px 5px 10px 5px #f1f489;
+    cursor: pointer;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.sessao2{
+    margin-top: 40px;
+    background-image: url("./img/parallax.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 120px;
+}
+
+.img-jogo-descricao {
+    width: 100%;
+}
+
+.accordion-header{
+    --bs-accordion-active-bg: black;
+    --bs-accordion-active-color: none;
+    --bs-accordion-btn-focus-border-color: none;
+    --bs-accordion-btn-focus-box-shadow: none;
+    color: white;
+}
+
+.texto-jogo {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+}
+
+.card-text {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.link-card {
+    text-decoration: none;
+    color:#000;
+}
+
+footer {
+    text-align: center;
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+}
+
+@media  screen and (max-width: 1366px ) {
+    .conteudo-header {
+        height: 440px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .conteudo-header {
+        height:150px;
+
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+
+    .row {
+        margin-bottom: 0px;
+    }
+
+    .img-jogo-descricao{
+        width: 300px;
+        margin-bottom: 5px;
+    }
+}
