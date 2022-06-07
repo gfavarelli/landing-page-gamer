@@ -1,9 +1,8 @@
-
 body {
     padding: 0%;
     background: #191919 !important;
+    background-image: url('./img/bg-opacity.png') !important;
     font-family: 'Skranji', cursive !important;
-    background-image: url("./img/bg-opacity.png") !important;
 }
 
 .conteudo-header {
@@ -32,13 +31,13 @@ main {
     cursor: pointer;
 }
 
-.row {
+.linha-games {
     margin-bottom: 10px;
 }
 
-.sessao2{
+.seu-email {
     margin-top: 40px;
-    background-image: url("./img/parallax.jpg");
+    background-image: url('./img/parallax.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,6 +45,15 @@ main {
     padding: 120px;
 }
 
+footer {
+    text-align: center;
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+}
+
+
+/*Pagina do jogo*/
 .img-jogo-descricao {
     width: 100%;
 }
@@ -72,14 +80,8 @@ main {
     color:#000;
 }
 
-footer {
-    text-align: center;
-    height: 80px;
-    background-color: #000;
-    color: #fff;
-}
 
-@media  screen and (max-width: 1366px ) {
+@media screen and (max-width: 1366px) {
     .conteudo-header {
         height: 440px;
     }
@@ -87,16 +89,7 @@ footer {
 
 @media screen and (max-width: 640px) {
     .conteudo-header {
-        height:150px;
-
-    }
-
-    .card {
-        margin-bottom: 10px;
-    }
-
-    .row {
-        margin-bottom: 0px;
+        height: 150px;
     }
 
     .img-jogo-descricao{
@@ -104,3 +97,4 @@ footer {
         margin-bottom: 5px;
     }
 }
+
